@@ -1,0 +1,66 @@
+body{
+background-color: pink;
+background-image: url(images/2.jpg);
+text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+.Btn {
+    color: black;
+    background-color: rgb(241, 234, 237);
+    width: 100px;
+    font-weight: bold;
+    border: 2px solid pink;
+    font-size: 25px;
+    cursor: pointer;
+    opacity: 0.6;
+  transition: 0.3s
+  }
+  .Btn:hover{
+      opacity: 1;
+  }
+  .input {
+      font-size: 20px;
+      font-style: italic;
+  }
+  .list {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    list-style-image: url("images/10.png");
+    text-align: center;
+    margin-top: auto;
+  }
+  .delButton {
+    color: black;
+    font-weight: bold;
+    border: none;
+    background-color: pink;
+    font-size: 23px;
+    margin-left:20px;
+  }
+.delButton:hover {
+  background-color: white;
+  border: 3px solid pink;
+}
+.editButton {
+  color: black;
+  border: none;
+  background-color: pink;
+  font-size: 23px;
+  margin-left:20px;
+}
+.editButton:hover {
+  background-color: white;
+  border: 3px solid pink;
+}
+@media all and (max-width:30em){
+   .btn {
+   display: block;
+   margin : 0.4em auto;
+  }
+}
